@@ -1,0 +1,22 @@
+{
+  "name": "@ma-efremoff-test-1/c",
+  "version": "0.0.1",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ma-efremoff-test-1/a": "*",
+    "@ma-efremoff-test-1/b": "*"
+  },
+  "devDependencies": {
+    "@gravity-ui/eslint-config": "^2.0.0",
+    "@gravity-ui/prettier-config": "^1.0.1",
+    "eslint": "^8.36.0",
+    "prettier": "^2.8.6"
+  }
+}
