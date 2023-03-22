@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.0](https://github.com/ma-efremoff/my-test-repo/compare/a-v0.0.4...a-v0.1.0) (2023-03-22)
+
+
+### Features
+
+* improve packages ([52e4509](https://github.com/ma-efremoff/my-test-repo/commit/52e450983ce0bb37314ec07ca6838c88a83bda6d))
+
 ## [0.0.4](https://github.com/ma-efremoff/my-test-repo/compare/a-v0.0.3...a-v0.0.4) (2023-03-22)
 
 
