@@ -1,6 +1,6 @@
 {
   "name": "@ma-efremoff-test-1/c",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "",
   "main": "index.js",
   "files": [
@@ -14,7 +14,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@ma-efremoff-test-1/a": "0.0.2",
+    "@ma-efremoff-test-1/a": "0.0.3",
     "@ma-efremoff-test-1/b": "0.0.2"
   },
   "devDependencies": {
