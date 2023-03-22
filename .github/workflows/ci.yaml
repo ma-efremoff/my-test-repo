@@ -4,11 +4,10 @@ on:
   push:
     branches: [main]
   pull_request:
-    branches: [main]
 
 jobs:
   verify_files:
-    name: Verify Files
+    name: Lint
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -24,8 +23,6 @@ jobs:
         run: npm ci
       - name: Lint Files
         run: npm run lint
-      - name: Typecheck
-        run: npm run test
 
   tests:
     name: Tests
