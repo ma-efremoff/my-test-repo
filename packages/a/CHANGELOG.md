@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.4](https://github.com/ma-efremoff/my-test-repo/compare/a-v0.0.3...a-v0.0.4) (2023-03-22)
+
+
+### Bug Fixes
+
+* fix for a ([aa71df8](https://github.com/ma-efremoff/my-test-repo/commit/aa71df81b4a3d2471af86b872d3699aef43e11c9))
+
 ## [0.0.3](https://github.com/ma-efremoff/my-test-repo/compare/a-v0.0.2...a-v0.0.3) (2023-03-22)
 
 
