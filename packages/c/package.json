@@ -8,8 +8,7 @@
   ],
   "scripts": {
     "lint": "eslint .",
-    "test": "echo \"Warning: no test specified\"",
-    "build": ""
+    "test": "echo \"Warning: no test specified\""
   },
   "author": "",
   "license": "ISC",
