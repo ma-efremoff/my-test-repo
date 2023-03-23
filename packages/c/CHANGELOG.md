@@ -13,6 +13,12 @@
     * @ma-efremoff-test-1/a bumped from 0.0.3 to 0.0.4
     * @ma-efremoff-test-1/b bumped from 0.0.2 to 0.1.0
 
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @ma-efremoff-test-1/a bumped from 0.1.0 to 0.1.1
+
 ## [0.1.0](https://github.com/ma-efremoff/my-test-repo/compare/c-v0.0.4...c-v0.1.0) (2023-03-22)
 
 

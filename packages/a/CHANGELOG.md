@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.1](https://github.com/ma-efremoff/my-test-repo/compare/a-v0.1.0...a-v0.1.1) (2023-03-23)
+
+
+### Bug Fixes
+
+* separate-pull-requests ([efda810](https://github.com/ma-efremoff/my-test-repo/commit/efda810d17757ec96d83dc6627077580716f94a0))
+
 ## [0.1.0](https://github.com/ma-efremoff/my-test-repo/compare/a-v0.0.4...a-v0.1.0) (2023-03-22)
 
 
