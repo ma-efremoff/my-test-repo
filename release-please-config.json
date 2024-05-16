@@ -10,7 +10,7 @@
     },
     "packages/c": {
       "skip-github-release": true,
-      "release-type": "node"
+      "release-type": "simple"
     }
   }
 }
