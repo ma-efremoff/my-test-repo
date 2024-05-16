@@ -19,6 +19,19 @@
   * dependencies
     * @ma-efremoff-test-1/a bumped from 0.1.0 to 0.1.1
 
+## [0.5.0](https://github.com/ma-efremoff/my-test-repo/compare/v0.4.0...v0.5.0) (2024-05-16)
+
+
+### Features
+
+* add d ([80e46fc](https://github.com/ma-efremoff/my-test-repo/commit/80e46fc7ce5e5a8522bb901eaaf0eda477724a5b))
+
+
+### Bug Fixes
+
+* fix4 ([1ba523e](https://github.com/ma-efremoff/my-test-repo/commit/1ba523e0c5e143a40bc22d368b78bbd863aada36))
+* minor fix ([481d508](https://github.com/ma-efremoff/my-test-repo/commit/481d508e3ed7cc9da866bccf0fd8d7f2c1cfd530))
+
 ## [0.4.0](https://github.com/ma-efremoff/my-test-repo/compare/v0.3.0...v0.4.0) (2024-05-16)
 
 
