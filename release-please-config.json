@@ -1,8 +1,15 @@
 {
   "plugins": ["node-workspace"],
   "packages": {
-    "packages/a": {},
-    "packages/b": {},
-    "packages/c": {}
+    "packages/a": {
+      "release-type": "node"
+    },
+    "packages/b": {
+      "release-type": "node"
+    },
+    "packages/c": {
+      "skip-github-release": true,
+      "release-type": "node"
+    }
   }
 }
