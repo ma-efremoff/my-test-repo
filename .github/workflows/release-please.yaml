@@ -43,6 +43,7 @@ jobs:
 
       - name: Show details
         run: |
+          echo packages/c
           echo ${{steps.release.outputs['packages/c--release_created']}}
           echo ${{steps.release.outputs['packages/c--upload_url']}}
           echo ${{steps.release.outputs['packages/c--html_url']}}
@@ -51,3 +52,33 @@ jobs:
           echo ${{steps.release.outputs['packages/c--minor']}}
           echo ${{steps.release.outputs['packages/c--patch']}}
           echo ${{steps.release.outputs['packages/c--sha']}}
+
+          echo packages/b
+          echo ${{steps.release.outputs['packages/b--release_created']}}
+          echo ${{steps.release.outputs['packages/b--upload_url']}}
+          echo ${{steps.release.outputs['packages/b--html_url']}}
+          echo ${{steps.release.outputs['packages/b--tag_name']}}
+          echo ${{steps.release.outputs['packages/b--major']}}
+          echo ${{steps.release.outputs['packages/b--minor']}}
+          echo ${{steps.release.outputs['packages/b--patch']}}
+          echo ${{steps.release.outputs['packages/b--sha']}}
+
+          echo packages/a
+          echo ${{steps.release.outputs['packages/a--release_created']}}
+          echo ${{steps.release.outputs['packages/a--upload_url']}}
+          echo ${{steps.release.outputs['packages/a--html_url']}}
+          echo ${{steps.release.outputs['packages/a--tag_name']}}
+          echo ${{steps.release.outputs['packages/a--major']}}
+          echo ${{steps.release.outputs['packages/a--minor']}}
+          echo ${{steps.release.outputs['packages/a--patch']}}
+          echo ${{steps.release.outputs['packages/a--sha']}}
+
+          echo __
+          echo ${{steps.release.outputs.release_created}}
+          echo ${{steps.release.outputs.upload_url}}
+          echo ${{steps.release.outputs.html_url}}
+          echo ${{steps.release.outputs.tag_name}}
+          echo ${{steps.release.outputs.major}}
+          echo ${{steps.release.outputs.minor}}
+          echo ${{steps.release.outputs.patch}}
+          echo ${{steps.release.outputs.sha}}
