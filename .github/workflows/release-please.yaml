@@ -26,11 +26,6 @@ jobs:
         with:
           node-version: 14
           registry-url: "https://registry.npmjs.org"
-      - name: Build Packages
-        if: ${{ steps.release.outputs.releases_created }}
-        run: |
-          npm ci
-          npm run lint
 
       # Release Please has already incremented versions and published tags, so we just
       # need to publish all unpublished versions to NPM here
