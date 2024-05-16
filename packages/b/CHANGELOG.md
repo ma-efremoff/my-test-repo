@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.2.2](https://github.com/ma-efremoff/my-test-repo/compare/b-v0.2.1...b-v0.2.2) (2024-05-16)
+
+
+### Bug Fixes
+
+* fix ([3feea82](https://github.com/ma-efremoff/my-test-repo/commit/3feea82aab32f71f2b42f5004164faea757275f1))
+* fix1 ([8e992bd](https://github.com/ma-efremoff/my-test-repo/commit/8e992bdd079ac3f3c933b66f141417a642685553))
+
 ## [0.2.1](https://github.com/ma-efremoff/my-test-repo/compare/b-v0.2.0...b-v0.2.1) (2024-05-16)
 
 
