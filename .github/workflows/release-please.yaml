@@ -10,12 +10,11 @@ jobs:
       - name:
         run: |
           echo ${{secrets.GITHUB_TOKEN}} | md5sum
-      - uses: googleapis/release-please-action@v4
+      - uses: googleapis/release-please-action@v3
         id: release
         with:
           command: manifest
           token: ${{secrets.GITHUB_TOKEN}}
-          default-branch: main
 
       # The logic below handles the npm publication:
       - name: Checkout Repository
@@ -41,3 +40,14 @@ jobs:
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
         run: npx lerna publish from-package --no-push --no-private --yes
+
+      - name: Show details
+        run: |
+          echo ${{steps.release.outputs['packages/c--release_created']}}
+          echo ${{steps.release.outputs['packages/c--upload_url']}}
+          echo ${{steps.release.outputs['packages/c--html_url']}}
+          echo ${{steps.release.outputs['packages/c--tag_name']}}
+          echo ${{steps.release.outputs['packages/c--major']}}
+          echo ${{steps.release.outputs['packages/c--minor']}}
+          echo ${{steps.release.outputs['packages/c--patch']}}
+          echo ${{steps.release.outputs['packages/c--sha']}}
