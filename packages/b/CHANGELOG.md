@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.1](https://github.com/ma-efremoff/my-test-repo/compare/b-v0.2.0...b-v0.2.1) (2024-05-16)
+
+
+### Bug Fixes
+
+* better exlint ([e38b1b2](https://github.com/ma-efremoff/my-test-repo/commit/e38b1b226a321c9fa6421a6cad574a5decb9c503))
+
 ## [0.2.0](https://github.com/ma-efremoff/my-test-repo/compare/b-v0.1.0...b-v0.2.0) (2023-03-22)
 
 
