@@ -19,6 +19,13 @@
   * dependencies
     * @ma-efremoff-test-1/a bumped from 0.1.0 to 0.1.1
 
+## [0.1.2](https://github.com/ma-efremoff/my-test-repo/compare/c-v0.1.1...c-v0.1.2) (2024-05-16)
+
+
+### Bug Fixes
+
+* better exlint ([e38b1b2](https://github.com/ma-efremoff/my-test-repo/commit/e38b1b226a321c9fa6421a6cad574a5decb9c503))
+
 ## [0.1.0](https://github.com/ma-efremoff/my-test-repo/compare/c-v0.0.4...c-v0.1.0) (2023-03-22)
 
 
