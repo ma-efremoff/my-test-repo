@@ -1,5 +1,6 @@
 {
   "packages/a": "0.1.4",
   "packages/b": "0.2.2",
-  "packages/c": "0.3.0"
+  "packages/c": "0.3.0",
+  "packages/d": "0.2.0"
 }

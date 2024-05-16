@@ -10,6 +10,9 @@
     },
     "packages/c": {
       "release-type": "simple"
+    },
+    "packages/d": {
+      "release-type": "simple"
     }
   }
 }
