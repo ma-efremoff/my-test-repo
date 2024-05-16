@@ -43,6 +43,16 @@ jobs:
 
       - name: Show details
         run: |
+          echo packages/d
+          echo ${{steps.release.outputs['packages/d--release_created']}}
+          echo ${{steps.release.outputs['packages/d--upload_url']}}
+          echo ${{steps.release.outputs['packages/d--html_url']}}
+          echo ${{steps.release.outputs['packages/d--tag_name']}}
+          echo ${{steps.release.outputs['packages/d--major']}}
+          echo ${{steps.release.outputs['packages/d--minor']}}
+          echo ${{steps.release.outputs['packages/d--patch']}}
+          echo ${{steps.release.outputs['packages/d--sha']}}
+
           echo packages/c
           echo ${{steps.release.outputs['packages/c--release_created']}}
           echo ${{steps.release.outputs['packages/c--upload_url']}}
