@@ -9,7 +9,8 @@
       "release-type": "node"
     },
     "packages/c": {
-      "release-type": "simple"
+      "draft": true,
+      "release-type": "node"
     }
   }
 }
