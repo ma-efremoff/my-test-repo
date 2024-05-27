@@ -19,6 +19,26 @@
   * dependencies
     * @ma-efremoff-test-1/a bumped from 0.1.0 to 0.1.1
 
+## [0.7.0](https://github.com/ma-efremoff/my-test-repo/compare/c-v0.6.0...c-v0.7.0) (2024-05-27)
+
+
+### Features
+
+* add d ([80e46fc](https://github.com/ma-efremoff/my-test-repo/commit/80e46fc7ce5e5a8522bb901eaaf0eda477724a5b))
+* improve packages ([52e4509](https://github.com/ma-efremoff/my-test-repo/commit/52e450983ce0bb37314ec07ca6838c88a83bda6d))
+
+
+### Bug Fixes
+
+* add files and build fields to package.json ([af2e840](https://github.com/ma-efremoff/my-test-repo/commit/af2e8405ab8637990d8a744a2a724ad8e4ba4516))
+* better eslint ([5406a0e](https://github.com/ma-efremoff/my-test-repo/commit/5406a0e7556510f315de5666ca1076515fee7381))
+* better exlint ([e38b1b2](https://github.com/ma-efremoff/my-test-repo/commit/e38b1b226a321c9fa6421a6cad574a5decb9c503))
+* **c:** better eslint ([67403f8](https://github.com/ma-efremoff/my-test-repo/commit/67403f807a1ebf311de7cb00a6779025b17765cf))
+* fix ([3feea82](https://github.com/ma-efremoff/my-test-repo/commit/3feea82aab32f71f2b42f5004164faea757275f1))
+* fix1 ([8e992bd](https://github.com/ma-efremoff/my-test-repo/commit/8e992bdd079ac3f3c933b66f141417a642685553))
+* fix4 ([1ba523e](https://github.com/ma-efremoff/my-test-repo/commit/1ba523e0c5e143a40bc22d368b78bbd863aada36))
+* minor fix ([481d508](https://github.com/ma-efremoff/my-test-repo/commit/481d508e3ed7cc9da866bccf0fd8d7f2c1cfd530))
+
 ## [0.6.0](https://github.com/ma-efremoff/my-test-repo/compare/v0.5.0...v0.6.0) (2024-05-16)
 
 
