@@ -79,6 +79,21 @@ jobs:
           echo ${{steps.release.outputs.patch}}
           echo ${{steps.release.outputs.sha}}
 
+      - name: Create tag for c
+        if: ${{ steps.release.outputs['packages/c--release_created'] }}
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git remote add gh-token "https://${{ secrets.GITHUB_TOKEN }}@github.com/google-github-actions/release-please-action.git"
+
+          export TAG=c-v${{steps.release.outputs['packages/c--major']}}.${{steps.release.outputs['packages/c--minor']}}.${{steps.release.outputs['packages/c--path']}}
+
+          git tag -d $TAG
+          git push gh-token :$TAG || true
+
+          git tag -m "Release $TAG" -a $TAG
+          git push gh-token $TAG
+
       # Release Please has already incremented versions and published tags, so we just
       # need to publish all unpublished versions to NPM here
       # See: https://github.com/lerna/lerna/tree/main/commands/publish#bump-from-package
