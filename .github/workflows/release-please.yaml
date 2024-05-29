@@ -86,12 +86,12 @@ jobs:
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
           git remote add gh-token "https://${{ secrets.GITHUB_TOKEN }}@github.com/ma-efremoff/my-test-repo.git"
 
-          export TAG=${{ steps.release.outputs['packages/a--tag_name'] }}
+          export TAG=${{ steps.release.outputs['packages/c--tag_name'] }}
 
           git tag -d $TAG
           git push gh-token :$TAG || true
 
-          git tag -m "Release $TAG" -a $TAG
+          git tag -m "Release $TAG" -a $TAG ${{ steps.release.outputs['packages/c--sha'] }}
           git push gh-token $TAG
 
       # Release Please has already incremented versions and published tags, so we just
