@@ -82,13 +82,15 @@ jobs:
       - name: Create tag for c
         if: ${{ steps.release.outputs['packages/c--release_created'] }}
         run: |
+          set -x
+
           git config user.name github-actions[bot]
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
           git remote add gh-token "https://${{ secrets.GITHUB_TOKEN }}@github.com/ma-efremoff/my-test-repo.git"
 
           export TAG=${{ steps.release.outputs['packages/c--tag_name'] }}
 
-          git tag -d $TAG
+          git tag -d $TAG || true
           git push gh-token :$TAG || true
 
           git tag -m "Release $TAG" -a $TAG ${{ steps.release.outputs['packages/c--sha'] }}
