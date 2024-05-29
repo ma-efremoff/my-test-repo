@@ -19,6 +19,35 @@
   * dependencies
     * @ma-efremoff-test-1/a bumped from 0.1.0 to 0.1.1
 
+## [0.8.0](https://github.com/ma-efremoff/my-test-repo/compare/c-v0.7.9...c-v0.8.0) (2024-05-29)
+
+
+### Features
+
+* add d ([80e46fc](https://github.com/ma-efremoff/my-test-repo/commit/80e46fc7ce5e5a8522bb901eaaf0eda477724a5b))
+* improve packages ([52e4509](https://github.com/ma-efremoff/my-test-repo/commit/52e450983ce0bb37314ec07ca6838c88a83bda6d))
+
+
+### Bug Fixes
+
+* add files and build fields to package.json ([af2e840](https://github.com/ma-efremoff/my-test-repo/commit/af2e8405ab8637990d8a744a2a724ad8e4ba4516))
+* better eslint ([5406a0e](https://github.com/ma-efremoff/my-test-repo/commit/5406a0e7556510f315de5666ca1076515fee7381))
+* better exlint ([e38b1b2](https://github.com/ma-efremoff/my-test-repo/commit/e38b1b226a321c9fa6421a6cad574a5decb9c503))
+* **c:** better eslint ([67403f8](https://github.com/ma-efremoff/my-test-repo/commit/67403f807a1ebf311de7cb00a6779025b17765cf))
+* fix ([3feea82](https://github.com/ma-efremoff/my-test-repo/commit/3feea82aab32f71f2b42f5004164faea757275f1))
+* fix1 ([8e992bd](https://github.com/ma-efremoff/my-test-repo/commit/8e992bdd079ac3f3c933b66f141417a642685553))
+* fix4 ([1ba523e](https://github.com/ma-efremoff/my-test-repo/commit/1ba523e0c5e143a40bc22d368b78bbd863aada36))
+* for c ([bcde047](https://github.com/ma-efremoff/my-test-repo/commit/bcde0473965647a323d6c5f86fbdcde07187ba52))
+* minor fix ([481d508](https://github.com/ma-efremoff/my-test-repo/commit/481d508e3ed7cc9da866bccf0fd8d7f2c1cfd530))
+* test 1 ([10558d1](https://github.com/ma-efremoff/my-test-repo/commit/10558d1e13e16dbc54fbd32395582f19ae1c0b99))
+* test 2 ([ee71736](https://github.com/ma-efremoff/my-test-repo/commit/ee71736fce12272ee4da2cf4a10c105ea88c1ec3))
+* test 2 ([89b539e](https://github.com/ma-efremoff/my-test-repo/commit/89b539e9c3b768689a7f177674e959b369fcebab))
+* test 3 ([054e0cb](https://github.com/ma-efremoff/my-test-repo/commit/054e0cb68b9f78338ee28dc3a69fb690f1323e4f))
+* test 4 ([ec84407](https://github.com/ma-efremoff/my-test-repo/commit/ec8440725cde7777739d9a0555c944d5ae24119d))
+* test 5 ([dc13681](https://github.com/ma-efremoff/my-test-repo/commit/dc1368162ea5429cd564be132ecd2f9324b6f7d6))
+* test 6 ([398b99b](https://github.com/ma-efremoff/my-test-repo/commit/398b99be2236341993e1db2271494ec1d948707c))
+* try again ([afbd7d1](https://github.com/ma-efremoff/my-test-repo/commit/afbd7d15438a94a115d7709dc788c6d8cca98d88))
+
 ## [0.7.9](https://github.com/ma-efremoff/my-test-repo/compare/c-v0.7.8...c-v0.7.9) (2024-05-29)
 
 
