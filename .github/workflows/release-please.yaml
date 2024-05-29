@@ -27,15 +27,6 @@ jobs:
           node-version: 14
           registry-url: "https://registry.npmjs.org"
 
-      # Release Please has already incremented versions and published tags, so we just
-      # need to publish all unpublished versions to NPM here
-      # See: https://github.com/lerna/lerna/tree/main/commands/publish#bump-from-package
-      - name: Publish to NPM
-        if: ${{ steps.release.outputs.releases_created }}
-        env:
-          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
-        run: npx lerna publish from-package --no-push --no-private --yes
-
       - name: Show details
         run: |
           echo packages/d
@@ -87,3 +78,12 @@ jobs:
           echo ${{steps.release.outputs.minor}}
           echo ${{steps.release.outputs.patch}}
           echo ${{steps.release.outputs.sha}}
+
+      # Release Please has already incremented versions and published tags, so we just
+      # need to publish all unpublished versions to NPM here
+      # See: https://github.com/lerna/lerna/tree/main/commands/publish#bump-from-package
+      - name: Publish to NPM
+        if: ${{ steps.release.outputs.releases_created }}
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
+        run: npx lerna publish from-package --no-push --no-private --yes
