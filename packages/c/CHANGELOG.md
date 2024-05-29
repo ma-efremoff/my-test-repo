@@ -19,6 +19,13 @@
   * dependencies
     * @ma-efremoff-test-1/a bumped from 0.1.0 to 0.1.1
 
+## [0.7.5](https://github.com/ma-efremoff/my-test-repo/compare/c-v0.7.4...c-v0.7.5) (2024-05-29)
+
+
+### Bug Fixes
+
+* test 2 ([ee71736](https://github.com/ma-efremoff/my-test-repo/commit/ee71736fce12272ee4da2cf4a10c105ea88c1ec3))
+
 ## [0.7.4](https://github.com/ma-efremoff/my-test-repo/compare/c-v0.7.3...c-v0.7.4) (2024-05-29)
 
 
