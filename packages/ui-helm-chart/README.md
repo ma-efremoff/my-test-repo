@@ -2,7 +2,7 @@
 
 ## Using with [ytop-chart](https://github.com/ytsaurus/ytsaurus-k8s-operator/pkgs/container/ytop-chart)
 
-Follow all required steps to [start the YTsaurus cluster](https://ytsaurus.tech/docs/en/overview/try-yt#starting-ytsaurus-cluster1). Then install the chart:
+Follow all required steps to [start the YTsaurus cluster](https://ytsaurus.tech/docs/en/overview/try-yt#starting-ytsaurus-cluster1). Then install the chart: 
 ```bash
 helm upgrade --install ytsaurus-ui github/ytsaurus-ui/packages/ui-helm-chart/
 ```
