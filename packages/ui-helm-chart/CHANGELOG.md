@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.63.0](https://github.com/ma-efremoff/my-test-repo/compare/ytsaurus-ui-chart-v1.62.0...ytsaurus-ui-chart-v1.63.0) (2025-08-01)
+
+
+### Features
+
+* **ui-helm-chart:** add helm chart ([ccd9787](https://github.com/ma-efremoff/my-test-repo/commit/ccd9787e209121e715f9be39d442c9feedf933db))
+
+
+### Bug Fixes
+
+* **ui-helm-chart:** ik ([1d99ece](https://github.com/ma-efremoff/my-test-repo/commit/1d99ece93515aaa3d5954f582a430521b0fae954))
+* **ui-helm-chart:** README.md ([1547f65](https://github.com/ma-efremoff/my-test-repo/commit/1547f658667f52b3fd39ba9daaf0e6723ceb1955))
+
 ## [1.62.0](https://github.com/ma-efremoff/my-test-repo/compare/ytsaurus-ui-chart-v1.61.0...ytsaurus-ui-chart-v1.62.0) (2025-08-01)
 
 
