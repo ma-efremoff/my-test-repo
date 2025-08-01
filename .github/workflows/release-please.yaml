@@ -118,7 +118,7 @@ jobs:
 
           cd packages/ui-helm-chart
           helm package .
-          helm push ${{steps.release.outputs['packages/ui-helm-chart--tag_name']}}.tgz oci://ghcr.io/ma-efremoff/my-test-repo
+          helm push ytsaurus-ui-chart-*.tgz oci://ghcr.io/ma-efremoff/my-test-repo
 
       # Release Please has already incremented versions and published tags, so we just
       # need to publish all unpublished versions to NPM here
