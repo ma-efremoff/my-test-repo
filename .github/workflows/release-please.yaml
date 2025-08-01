@@ -10,6 +10,11 @@ jobs:
       - name:
         run: |
           echo ${{secrets.GITHUB_TOKEN}} | md5sum
+      - name: Set up Helm
+        uses: azure/setup-helm@v1
+        with:
+          version: v3.11.2
+
       - uses: googleapis/release-please-action@v3
         id: release
         with:
@@ -29,6 +34,16 @@ jobs:
 
       - name: Show details
         run: |
+          echo packages/ui-helm-chart
+          echo ${{steps.release.outputs['packages/ui-helm-chart--release_created']}}
+          echo ${{steps.release.outputs['packages/ui-helm-chart--upload_url']}}
+          echo ${{steps.release.outputs['packages/ui-helm-chart--html_url']}}
+          echo ${{steps.release.outputs['packages/ui-helm-chart--tag_name']}}
+          echo ${{steps.release.outputs['packages/ui-helm-chart--major']}}
+          echo ${{steps.release.outputs['packages/ui-helm-chart--minor']}}
+          echo ${{steps.release.outputs['packages/ui-helm-chart--patch']}}
+          echo ${{steps.release.outputs['packages/ui-helm-chart--sha']}}
+
           echo packages/d
           echo ${{steps.release.outputs['packages/d--release_created']}}
           echo ${{steps.release.outputs['packages/d--upload_url']}}
@@ -95,6 +110,15 @@ jobs:
 
           git tag -m "Release $TAG" -a $TAG ${{ steps.release.outputs['packages/c--sha'] }}
           git push gh-token $TAG
+
+      - name: Publish ui-helm-chart
+        if: ${{ steps.release.outputs['packages/ui-helm-chart--release_created'] }}
+        run: |
+          set -x 
+
+          cd packages/ui-helm-chart
+          helm package
+          helm push $(OPERATOR_CHART_NAME_RELEASE)-${RELEASE_VERSION}.tgz oci://ghcr.io/ytsaurus
 
       # Release Please has already incremented versions and published tags, so we just
       # need to publish all unpublished versions to NPM here
